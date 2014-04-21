@@ -1,0 +1,16 @@
+Thu Apr 17 09:07:37 CDT 2014
+Tester: Dupre
+Class: AI
+Type: Logic
+Summary: The runcases -p command does not chow cmdPrompt after run
+
+Command List:
+
+Error List:
+
+Reproduction Steps:
+
+
+Comments:
+    It seems like the logic used to test adjacent cells causes the AI 
+to get stuck

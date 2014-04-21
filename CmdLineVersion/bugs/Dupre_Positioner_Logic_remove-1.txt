@@ -1,0 +1,22 @@
+Thu Apr 17 08:51:09 CDT 2014
+Tester: Dupre
+Class: Positioner
+Type: Logic
+
+Summary: When ship is removed, using the continue command will incorrectly 
+inform the user that all ships are placed
+
+Command List:
+   setup -r
+   save  <option>
+   remove
+   <index>
+   continue
+
+Error List:
+
+Reproduction Steps:
+    Remove ship
+    attempt to replace on board
+
+Comments:
