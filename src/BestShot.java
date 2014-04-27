@@ -84,9 +84,9 @@ public class BestShot {
                     }
                 } else {
                     if (forward) {
-                        push(new Point(firstHit.x+1, firstHit.y));
-                    } else {
                         push(new Point(firstHit.x-1, firstHit.y));
+                    } else {
+                        push(new Point(firstHit.x+1, firstHit.y));
                     }
                 }
                 
@@ -98,9 +98,9 @@ public class BestShot {
                 
                 if (vert) {
                     if (forward) {
-                        push(new Point(firstHit.x, firstHit.y-1));
-                    } else {
                         push(new Point(firstHit.x, firstHit.y+1));
+                    } else {
+                        push(new Point(firstHit.x, firstHit.y-1));
                     }
                 } else {
                     if (forward) {

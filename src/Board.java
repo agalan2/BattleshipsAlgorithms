@@ -101,6 +101,7 @@ public final class Board {
         }
     }
     
+    public boolean alreadyUsed = false;
     public boolean placeShip(int r, int c, String or, Ship ship) {
         int start, end;
         if (or.equalsIgnoreCase("Vertical") || or.equalsIgnoreCase("V")) {

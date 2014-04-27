@@ -76,13 +76,16 @@ public final class Positioner {
             Setup.getPlayerBoard().draw();
             System.out.print("Use 'continue' to place next ship.\n");
             Setup.getCommandLine().showCmdPrompt();
+        } else {
+            System.out.print("All ships have been placed.\n");
         } Setup.getPlayerBoard().draw();
-        System.out.print("All ships have been placed.\n");
         if (Setup.isInGame()) {
             Setup.getGameLogic().playGame("null");
         } else {
-            //Setup.getCommandLine().showCmdPrompt();
+            Setup.getCommandLine().showCmdPrompt();
         }
+        
+        
     }
     
     private void getAndPosition(Board b) throws IOException {

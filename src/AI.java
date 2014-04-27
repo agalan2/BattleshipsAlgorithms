@@ -170,8 +170,7 @@ public class AI {
     // If it isnt randomly pick another.
     public void randomVolley() throws IOException {
         while (!board.isDone()) {
-            target = new Point(rand(), rand());
-            board.fire(target.x, target.y);
+            easyShot();
         }
     }
     
@@ -200,23 +199,7 @@ public class AI {
     // ship, the shot should never be directly adjacent to a missed shot.
     public void huntWithParity() throws IOException {
         while (!board.isDone()) {
-            while (1 > stackSize) {
-                target = new Point(rand(), rand());
-                
-                while (!testChoice(target, 1)) {
-                    target = new Point(rand(), rand());
-                }
-                
-                if (board.fire(target.x, target.y)) {
-                    populateStack(target);
-                }
-            }
-            while (0 < stackSize) {
-                target = pop();
-                if (board.fire(target.x, target.y)) {
-                    populateStack(target);
-                } 
-            }
+            hardShot();
         }
     }
     
@@ -276,9 +259,11 @@ public class AI {
                     valid = b.placeShip(rand(), rand(), "h", b.getShip(i));
                 } else {
                     valid = b.placeShip(rand(), rand(), "v", b.getShip(i));
-                } Setup.getPositioner().incrementPositioned();
+                } 
             }
-        } b.draw();
+        }
+        Setup.getPositioner().setPositioned(5);
+        b.draw();
         System.out.println("AI placement done");
     }
  

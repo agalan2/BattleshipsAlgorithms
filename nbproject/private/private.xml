@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/edupre13/Desktop/BattleShip/src/BestShot.java</file>
-            <file>file:/Users/edupre13/Desktop/BattleShip/src/BestShotFail.java</file>
+            <file>file:/Users/edupre13/Desktop/BattleShip/src/AI.java</file>
+            <file>file:/Users/edupre13/Desktop/BattleShip/src/Setup.java</file>
             <file>file:/Users/edupre13/Desktop/BattleShip/src/Board.java</file>
             <file>file:/Users/edupre13/Desktop/BattleShip/src/CommandLine.java</file>
+            <file>file:/Users/edupre13/Desktop/BattleShip/src/Positioner.java</file>
         </group>
     </open-files>
 </project-private>

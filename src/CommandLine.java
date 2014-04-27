@@ -268,11 +268,18 @@ public class CommandLine {
     BestShot b = new BestShot(Setup.getPlayerBoard());
     public void parse(String str) throws IOException {
         switch (str) {
-            case "t":
-                b.fire();
+            case "+r":
+                Setup.getAI().easyShot();
                 Setup.getPlayerBoard().draw();
                 showCmdPrompt(); break;
-            
+            case "+h":
+                Setup.getAI().mediumShot();
+                Setup.getPlayerBoard().draw();
+                showCmdPrompt(); break;
+            case "+p":
+                Setup.getAI().hardShot();
+                Setup.getPlayerBoard().draw();
+                showCmdPrompt(); break;
             
             case "ai":
                 try {
@@ -340,7 +347,15 @@ public class CommandLine {
                 } break;
             case "quit":
             case "q":
-                System.exit(0); break;
+                System.out.print("Quit? (y/n) ");
+                switch (CommandLine.s.next()) {
+                    case "yes": 
+                    case "y":
+                        System.out.print("Quitting Execution...\n");
+                        System.exit(0); break;
+                    default: 
+                        showCmdPrompt();
+                    } break;
             case "remove":
             case "r":
                 remove(); 
