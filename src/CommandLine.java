@@ -265,12 +265,14 @@ public class CommandLine {
         } 
     }
 
+    BestShot b = new BestShot(Setup.getPlayerBoard());
     public void parse(String str) throws IOException {
         switch (str) {
             case "t":
-                Setup.getAI().veryHardShot(); 
+                b.fire();
                 Setup.getPlayerBoard().draw();
                 showCmdPrompt(); break;
+            
             
             case "ai":
                 try {

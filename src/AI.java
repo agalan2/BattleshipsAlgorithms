@@ -67,44 +67,103 @@ public class AI {
     }
     
     // The total hits needed to win is 17
-    private int maxLength = 5;
-    private boolean hunting = true;
+    Point prevHit = new Point(0, 0);
+    Point curHit = new Point(0, 0);
+    Point firstHit;
+    
+    boolean vert = true;
+    boolean forward = true;
+        
     public void veryHardShot() throws IOException {
-        boolean isGood = true;
-        boolean shot;
+        int minLen = 1;
+        int shipsLeft = 0;
         
-        for (int i = 4; 0 <= i; i--) {
+        for (int i = 0; i < 5; i++) {
             if (!board.getShip(i).checkDead()) {
-                maxLength = board.getShip(i).getMaxHP();
+                shipsLeft++;
+                minLen = board.getShip(i).getMaxHP();
             }
-        } 
-        
-        System.out.println("MAX: " + maxLength);
-        
-        target = new Point(rand(), rand());
+        }
         
         
-            switch (board.getCell(target.x, target.y)) {
+        
+        if (0 == stackSize) {
+            target = new Point(rand(), rand());
+            while (!testChoice(target, minLen)) {
+                target = new Point(rand(), rand());
+            }
+            if (board.fire(target.x, target.y)) {
+                populateStack(target);
+                curHit = target;
+                firstHit = target;
+            } else if (board.isInvalidShot()) {
+                veryHardShot();
+            }
+        } else {
+            target = pop();
+            
+            
+            
+            if (board.fire(target.x, target.y)) {
+                prevHit = curHit;
+                curHit = target;
                 
-                case "-":
-                case "o":
-                    try {
-                        isGood = testChoice(target, maxLength);
-
-                        if (isGood) {
-                            shot = board.fire(target.x, target.y);
-                        } else {
-                            veryHardShot();
-                        }
-                    } catch (ArrayIndexOutOfBoundsException e) {
-                        veryHardShot();
+                if (prevHit.x == curHit.x) {
+                    //stackSize = 0;
+                    
+                    if (prevHit.y < curHit.y && 10 > curHit.y) {
+                        forward = true;
+                        push(new Point(target.x, target.y+1));
+                    } else if (prevHit.y > curHit.y && 1 < curHit.y) {
+                        forward = false;
+                        push(new Point(target.x, target.y-1));
                     }
-                    break;
-                default:
-                    veryHardShot();
-                    break;
-            }
-        
+                    
+                    vert = false;
+                } else if (prevHit.y == curHit.y) {
+                    //stackSize = 0;
+                    
+                    if (prevHit.x < curHit.x && 10 > curHit.y) {
+                        forward = true;
+                        push(new Point(target.x+1, target.y));
+                    } else if (prevHit.x > curHit.x && 1 < curHit.y) {
+                        forward = false; 
+                        push(new Point(target.x-1, target.y));
+                    }
+                    
+                    vert = true;
+                }
+                
+                if (board.isKillShot()) {
+                    stackSize = 0;
+                }
+                
+            } else if (board.isInvalidShot()) {
+                veryHardShot();
+            } else if (board.isMissedShot() ) {
+                
+                
+                if (vert) {
+                    //stackSize = 0;
+                    
+                    if (forward) {
+                        push(new Point(firstHit.x-1, firstHit.y));
+                    } else {
+                        push(new Point(firstHit.x+1, firstHit.y));
+                    }
+                } else {
+                    //stackSize = 0;
+                    
+                    if (forward) {
+                        push(new Point(firstHit.x, firstHit.y-1));
+                    } else {
+                        push(new Point(firstHit.x, firstHit.y+1));
+                    }
+                }
+                
+                
+            } 
+        } 
     }
 
     // Randomly pick a spot and fire if it is availible. 
@@ -165,28 +224,22 @@ public class AI {
     // next to a missed shot.
     private boolean testChoice(Point p, int i) {
         boolean valid = true;
-        
-        if (board.getCell(p.x, p.y).equals("x") 
-                || board.getCell(p.x, p.y).equals("!")) {
-            return false;
-        }
-        
-        if (1 < p.x) {
+        if (i < p.x) {
             if (board.getCell(p.x-i, p.y).equals("x")) {
                 valid = false;
             }
         }
-        if (1 < p.y) { 
+        if (i < p.y) { 
             if (board.getCell(p.x, p.y-i).equals("x")) {
                 valid = false;
             }
         }
-        if (9 > p.x) {
+        if (10-i > p.x) {
             if (board.getCell(p.x+i, p.y).equals("x")) {
                 valid = false;
             }
         }
-        if (9 > p.y) {
+        if (10-i > p.y) {
             if (board.getCell(p.x, p.y+i).equals("x")) {
                 valid = false;
             }

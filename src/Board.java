@@ -11,6 +11,7 @@ public final class Board {
     private boolean hitShot;
     private boolean invalidShot;
     private boolean missedShot;
+    private boolean killShot;
     
     private final Ship[] ships;
     private final String[][] board;
@@ -20,6 +21,7 @@ public final class Board {
         this.hitShot = false;
         this.invalidShot = false;
         this.missedShot = false;
+        this.killShot = false;
 
         board = new String[11][11];
         
@@ -157,6 +159,7 @@ public final class Board {
     public boolean unavailibleShot() {
         invalidShot = true;
         missedShot = false;
+        killShot = false;
         hitShot = false;
         return false;
     }
@@ -164,6 +167,7 @@ public final class Board {
     public boolean missedShot(int r, int c) {
         invalidShot = false;
         missedShot = true;
+        killShot = false;
         hitShot = false;
         shotCount++;
         board[r][c] = "x";
@@ -173,6 +177,7 @@ public final class Board {
     public boolean hitShot(int r, int c) throws IOException {
         invalidShot = false;
         missedShot = false;
+        killShot = false;
         hitShot = true;
         shotCount++;
         board[r][c] = "!";
@@ -183,6 +188,7 @@ public final class Board {
                 if (s.getLocation(j).x == r && s.getLocation(j).y == c) {
                     s.hit();
                     if (s.checkDead()) {
+                        killShot = true;
                         shipCount--; 
                         done = checkDone();
                     }
@@ -232,4 +238,5 @@ public final class Board {
     public boolean isHitShot() {return hitShot;}
     public boolean isInvalidShot() {return invalidShot;}
     public boolean isMissedShot() {return missedShot;}
+    public boolean isKillShot() {return killShot;}
 }
