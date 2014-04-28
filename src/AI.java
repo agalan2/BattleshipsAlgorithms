@@ -45,7 +45,8 @@ public class AI {
     public void hardShot() throws IOException {
         if (0 == stackSize) {
             target = new Point(rand(), rand());
-                
+              
+            numAttempts = 0;
             while (!testChoice(target, 1)) {
                 target = new Point(rand(), rand());
             }
@@ -66,104 +67,44 @@ public class AI {
         }
     }
     
-    // The total hits needed to win is 17
-    Point prevHit = new Point(0, 0);
-    Point curHit = new Point(0, 0);
-    Point firstHit;
-    
-    boolean vert = true;
-    boolean forward = true;
-        
-    public void veryHardShot() throws IOException {
-        int minLen = 1;
-        int shipsLeft = 0;
-        
-        for (int i = 0; i < 5; i++) {
-            if (!board.getShip(i).checkDead()) {
-                shipsLeft++;
-                minLen = board.getShip(i).getMaxHP();
-            }
+    private int getMinLength() {
+        if (1 == board.getShipCount()) {
+            return 1;
+        } else {
+            int min = 1;
+            for (int i = 4; 0 >= i; i--) {
+                if (!board.getShip(i).checkDead()) {
+                    min =  board.getShip(i).getMaxHP()-1;
+                } 
+            } return min;
         }
-        
-        
-        
+    }
+    
+    public void veryHardShot() throws IOException {
         if (0 == stackSize) {
+            int min = getMinLength();
+            
             target = new Point(rand(), rand());
-            while (!testChoice(target, minLen)) {
+              
+            numAttempts = 0;
+            while (!testChoice(target, min)) {
                 target = new Point(rand(), rand());
             }
+
             if (board.fire(target.x, target.y)) {
                 populateStack(target);
-                curHit = target;
-                firstHit = target;
             } else if (board.isInvalidShot()) {
-                veryHardShot();
+                hardShot();
             }
         } else {
             target = pop();
             
-            
-            
             if (board.fire(target.x, target.y)) {
-                prevHit = curHit;
-                curHit = target;
-                
-                if (prevHit.x == curHit.x) {
-                    //stackSize = 0;
-                    
-                    if (prevHit.y < curHit.y && 10 > curHit.y) {
-                        forward = true;
-                        push(new Point(target.x, target.y+1));
-                    } else if (prevHit.y > curHit.y && 1 < curHit.y) {
-                        forward = false;
-                        push(new Point(target.x, target.y-1));
-                    }
-                    
-                    vert = false;
-                } else if (prevHit.y == curHit.y) {
-                    //stackSize = 0;
-                    
-                    if (prevHit.x < curHit.x && 10 > curHit.y) {
-                        forward = true;
-                        push(new Point(target.x+1, target.y));
-                    } else if (prevHit.x > curHit.x && 1 < curHit.y) {
-                        forward = false; 
-                        push(new Point(target.x-1, target.y));
-                    }
-                    
-                    vert = true;
-                }
-                
-                if (board.isKillShot()) {
-                    stackSize = 0;
-                }
-                
+                populateStack(target);
             } else if (board.isInvalidShot()) {
-                veryHardShot();
-            } else if (board.isMissedShot() ) {
-                
-                
-                if (vert) {
-                    //stackSize = 0;
-                    
-                    if (forward) {
-                        push(new Point(firstHit.x-1, firstHit.y));
-                    } else {
-                        push(new Point(firstHit.x+1, firstHit.y));
-                    }
-                } else {
-                    //stackSize = 0;
-                    
-                    if (forward) {
-                        push(new Point(firstHit.x, firstHit.y-1));
-                    } else {
-                        push(new Point(firstHit.x, firstHit.y+1));
-                    }
-                }
-                
-                
-            } 
-        } 
+                hardShot();
+            }
+        }
     }
 
     // Randomly pick a spot and fire if it is availible. 
@@ -180,73 +121,85 @@ public class AI {
     // surrounding positions should be added to the stack.
     public void hunt() throws IOException {
         while (!board.isDone()) {
-            while (1 > stackSize) {
-                target = new Point(rand(), rand());
-                if (board.fire(target.x, target.y)) {
-                    populateStack(target);
-                }
-            }
-            while (0 < stackSize) {
-                target = pop();
-                if (board.fire(target.x, target.y)) {
-                    populateStack(target);
-                } 
-            }
+            mediumShot();
         }
     }
     
     // Same as hunt. The difference is that when firing randomly to find a 
     // ship, the shot should never be directly adjacent to a missed shot.
     public void huntWithParity() throws IOException {
+        hardShot();
+        if (!board.isDone()) {
+            huntWithParity();
+        }
+    }
+    
+    public void dynamicHuntWithParity() throws IOException {
         while (!board.isDone()) {
-            hardShot();
+            veryHardShot();
         }
     }
     
     // Utility function for huntWith pairity to ensure that the next shot is
     // next to a missed shot.
+    
+    int numAttempts = 0;
     private boolean testChoice(Point p, int i) {
-        boolean valid = true;
-        if (i < p.x) {
-            if (board.getCell(p.x-i, p.y).equals("x")) {
-                valid = false;
+        boolean up = true;
+        boolean down = true;
+        boolean left = true;
+        boolean right = true;
+        
+        for (int j = 1; j <= i; j++) {
+            if (0 < p.x-j) {
+                if (board.getCell(p.x-j, p.y).equals("x")) {
+                    down = false;
+                }
             }
-        }
-        if (i < p.y) { 
-            if (board.getCell(p.x, p.y-i).equals("x")) {
-                valid = false;
+            if (0 < p.y-j) { 
+                if (board.getCell(p.x, p.y-j).equals("x")) {
+                    left = false;
+                }
             }
-        }
-        if (10-i > p.x) {
-            if (board.getCell(p.x+i, p.y).equals("x")) {
-                valid = false;
+            if (11 > p.x+j) {
+                if (board.getCell(p.x+j, p.y).equals("x")) {
+                    up = false;
+                }
             }
-        }
-        if (10-i > p.y) {
-            if (board.getCell(p.x, p.y+i).equals("x")) {
-                valid = false;
+            if (11 > p.y+j) {
+                if (board.getCell(p.x, p.y+j).equals("x")) {
+                    right = false;
+                }
             }
         }
         
-        return valid;
+        if (up && down && left && right) {
+            return true;
+        } else if (15 > numAttempts) {
+            numAttempts++;
+            return false;
+        } return true;
     }
+    
     
     private Point pop() {return stack[--stackSize];}
     private void push(Point p) {stack[stackSize++] = p;}
     private void populateStack(Point p) {
-        if (0 < p.x-1) {
-            push(new Point(p.x-1, p.y));
-        } 
         if (11 > p.x+1) {
             push(new Point(p.x+1, p.y));
-        } 
-        if (0 < p.y-1) {
-            push(new Point(p.x, p.y-1));
         } 
         if (11 > p.y+1) {
             push(new Point(p.x, p.y+1));
         }
+        if (0 < p.x-1) {
+            push(new Point(p.x-1, p.y));
+        } 
+        
+        if (0 < p.y-1) {
+            push(new Point(p.x, p.y-1));
+        } 
     }
+        
     
     // Randomly place ships
     public void randomPlacement(Board b) {

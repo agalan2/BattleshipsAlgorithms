@@ -162,6 +162,8 @@ public class CommandLine {
                     Setup.getAI().hunt(); break;
                 case "-p":
                     Setup.getAI().huntWithParity(); break;
+                case "-d":
+                    Setup.getAI().dynamicHuntWithParity(); break;
                 default:
                     System.out.print("Invalid algorithm.\n");
             }
@@ -265,19 +267,22 @@ public class CommandLine {
         } 
     }
 
-    BestShot b = new BestShot(Setup.getPlayerBoard());
     public void parse(String str) throws IOException {
         switch (str) {
             case "+r":
                 Setup.getAI().easyShot();
                 Setup.getPlayerBoard().draw();
                 showCmdPrompt(); break;
-            case "+h":
+            case ">":
                 Setup.getAI().mediumShot();
                 Setup.getPlayerBoard().draw();
                 showCmdPrompt(); break;
-            case "+p":
+            case "i":
                 Setup.getAI().hardShot();
+                Setup.getPlayerBoard().draw();
+                showCmdPrompt(); break;
+            case "o":
+                Setup.getAI().veryHardShot();
                 Setup.getPlayerBoard().draw();
                 showCmdPrompt(); break;
             

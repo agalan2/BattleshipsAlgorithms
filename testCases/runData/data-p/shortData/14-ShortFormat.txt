@@ -1,0 +1,1416 @@
+ ------------------ 
+| H/T With parity |
+ ------------------ 
+
+ ---------- 
+| Clusters |
+ ---------- 
+(0)
+Total Shots for board: 1459
+Average shots (Board): 72.95
+Avg shots (Clusters): 72.95
+Average shots (Root): 72.95
+--------------------
+
+(1)
+Total Shots for board: 1078
+Average shots (Board): 53.9
+Avg shots (Clusters): 63.425
+Average shots (Root): 63.425
+--------------------
+
+(2)
+Total Shots for board: 994
+Average shots (Board): 49.7
+Avg shots (Clusters): 56.5625
+Average shots (Root): 56.5625
+--------------------
+
+(3)
+Total Shots for board: 1250
+Average shots (Board): 62.5
+Avg shots (Clusters): 59.53125
+Average shots (Root): 59.53125
+--------------------
+
+(4)
+Total Shots for board: 1251
+Average shots (Board): 62.55
+Avg shots (Clusters): 61.040627
+Average shots (Root): 61.040627
+--------------------
+
+(5)
+Total Shots for board: 1317
+Average shots (Board): 65.85
+Avg shots (Clusters): 63.445312
+Average shots (Root): 63.445312
+--------------------
+
+(6)
+Total Shots for board: 969
+Average shots (Board): 48.45
+Avg shots (Clusters): 55.947655
+Average shots (Root): 55.947655
+--------------------
+
+(7)
+Total Shots for board: 1341
+Average shots (Board): 67.05
+Avg shots (Clusters): 61.49883
+Average shots (Root): 61.49883
+--------------------
+
+(8)
+Total Shots for board: 1324
+Average shots (Board): 66.2
+Avg shots (Clusters): 63.84941
+Average shots (Root): 63.84941
+--------------------
+
+(9)
+Total Shots for board: 1309
+Average shots (Board): 65.45
+Avg shots (Clusters): 64.649704
+Average shots (Root): 64.649704
+--------------------
+
+(10)
+Total Shots for board: 1523
+Average shots (Board): 76.15
+Avg shots (Clusters): 70.39986
+Average shots (Root): 70.39986
+--------------------
+
+(11)
+Total Shots for board: 887
+Average shots (Board): 44.35
+Avg shots (Clusters): 57.374928
+Average shots (Root): 57.374928
+--------------------
+
+(12)
+Total Shots for board: 1240
+Average shots (Board): 62.0
+Avg shots (Clusters): 59.68746
+Average shots (Root): 59.68746
+--------------------
+
+(13)
+Total Shots for board: 1380
+Average shots (Board): 69.0
+Avg shots (Clusters): 64.343735
+Average shots (Root): 64.343735
+--------------------
+
+(14)
+Total Shots for board: 952
+Average shots (Board): 47.6
+Avg shots (Clusters): 55.971867
+Average shots (Root): 55.971867
+--------------------
+
+(15)
+Total Shots for board: 959
+Average shots (Board): 47.95
+Avg shots (Clusters): 51.960934
+Average shots (Root): 51.960934
+--------------------
+
+(16)
+Total Shots for board: 1149
+Average shots (Board): 57.45
+Avg shots (Clusters): 54.705467
+Average shots (Root): 54.705467
+--------------------
+
+(17)
+Total Shots for board: 1319
+Average shots (Board): 65.95
+Avg shots (Clusters): 60.327732
+Average shots (Root): 60.327732
+--------------------
+
+(18)
+Total Shots for board: 1390
+Average shots (Board): 69.5
+Avg shots (Clusters): 64.913864
+Average shots (Root): 64.913864
+--------------------
+
+(19)
+Total Shots for board: 1164
+Average shots (Board): 58.2
+Avg shots (Clusters): 61.55693
+Average shots (Root): 61.55693
+--------------------
+
+(20)
+Total Shots for board: 1348
+Average shots (Board): 67.4
+Avg shots (Clusters): 64.47847
+Average shots (Root): 64.47847
+--------------------
+
+(21)
+Total Shots for board: 1480
+Average shots (Board): 74.0
+Avg shots (Clusters): 69.239235
+Average shots (Root): 69.239235
+--------------------
+
+(22)
+Total Shots for board: 1419
+Average shots (Board): 70.95
+Avg shots (Clusters): 70.09462
+Average shots (Root): 70.09462
+--------------------
+
+(23)
+Total Shots for board: 1092
+Average shots (Board): 54.6
+Avg shots (Clusters): 62.34731
+Average shots (Root): 62.34731
+--------------------
+
+(24)
+Total Shots for board: 1189
+Average shots (Board): 59.45
+Avg shots (Clusters): 60.898655
+Average shots (Root): 60.898655
+--------------------
+
+(25)
+Total Shots for board: 1138
+Average shots (Board): 56.9
+Avg shots (Clusters): 58.89933
+Average shots (Root): 58.89933
+--------------------
+
+(26)
+Total Shots for board: 1091
+Average shots (Board): 54.55
+Avg shots (Clusters): 56.724663
+Average shots (Root): 56.724663
+--------------------
+
+(27)
+Total Shots for board: 1355
+Average shots (Board): 67.75
+Avg shots (Clusters): 62.23733
+Average shots (Root): 62.23733
+--------------------
+
+(28)
+Total Shots for board: 1192
+Average shots (Board): 59.6
+Avg shots (Clusters): 60.918663
+Average shots (Root): 60.918663
+--------------------
+
+(29)
+Total Shots for board: 1007
+Average shots (Board): 50.35
+Avg shots (Clusters): 55.63433
+Average shots (Root): 55.63433
+--------------------
+
+(30)
+Total Shots for board: 937
+Average shots (Board): 46.85
+Avg shots (Clusters): 51.242165
+Average shots (Root): 51.242165
+--------------------
+
+(31)
+Total Shots for board: 1075
+Average shots (Board): 53.75
+Avg shots (Clusters): 52.496082
+Average shots (Root): 52.496082
+--------------------
+
+(32)
+Total Shots for board: 1395
+Average shots (Board): 69.75
+Avg shots (Clusters): 61.12304
+Average shots (Root): 61.12304
+--------------------
+
+(33)
+Total Shots for board: 1025
+Average shots (Board): 51.25
+Avg shots (Clusters): 56.18652
+Average shots (Root): 56.18652
+--------------------
+
+(34)
+Total Shots for board: 891
+Average shots (Board): 44.55
+Avg shots (Clusters): 50.36826
+Average shots (Root): 50.36826
+--------------------
+
+(35)
+Total Shots for board: 1401
+Average shots (Board): 70.05
+Avg shots (Clusters): 60.20913
+Average shots (Root): 60.20913
+--------------------
+
+(36)
+Total Shots for board: 1266
+Average shots (Board): 63.3
+Avg shots (Clusters): 61.754562
+Average shots (Root): 61.754562
+--------------------
+
+(37)
+Total Shots for board: 987
+Average shots (Board): 49.35
+Avg shots (Clusters): 55.55228
+Average shots (Root): 55.55228
+--------------------
+
+(38)
+Total Shots for board: 1151
+Average shots (Board): 57.55
+Avg shots (Clusters): 56.55114
+Average shots (Root): 56.55114
+--------------------
+
+(39)
+Total Shots for board: 1126
+Average shots (Board): 56.3
+Avg shots (Clusters): 56.425568
+Average shots (Root): 56.425568
+--------------------
+
+(40)
+Total Shots for board: 1344
+Average shots (Board): 67.2
+Avg shots (Clusters): 61.812782
+Average shots (Root): 61.812782
+--------------------
+
+(41)
+Total Shots for board: 995
+Average shots (Board): 49.75
+Avg shots (Clusters): 55.78139
+Average shots (Root): 55.78139
+--------------------
+
+(42)
+Total Shots for board: 1386
+Average shots (Board): 69.3
+Avg shots (Clusters): 62.540695
+Average shots (Root): 62.540695
+--------------------
+
+(43)
+Total Shots for board: 1256
+Average shots (Board): 62.8
+Avg shots (Clusters): 62.67035
+Average shots (Root): 62.67035
+--------------------
+
+(44)
+Total Shots for board: 1463
+Average shots (Board): 73.15
+Avg shots (Clusters): 67.91017
+Average shots (Root): 67.91017
+--------------------
+
+(45)
+Total Shots for board: 872
+Average shots (Board): 43.6
+Avg shots (Clusters): 55.755085
+Average shots (Root): 55.755085
+--------------------
+
+(46)
+Total Shots for board: 1093
+Average shots (Board): 54.65
+Avg shots (Clusters): 55.202545
+Average shots (Root): 55.202545
+--------------------
+
+(47)
+Total Shots for board: 1284
+Average shots (Board): 64.2
+Avg shots (Clusters): 59.70127
+Average shots (Root): 59.70127
+--------------------
+
+(48)
+Total Shots for board: 1235
+Average shots (Board): 61.75
+Avg shots (Clusters): 60.725636
+Average shots (Root): 60.725636
+--------------------
+
+(49)
+Total Shots for board: 1044
+Average shots (Board): 52.2
+Avg shots (Clusters): 56.46282
+Average shots (Root): 56.46282
+--------------------
+
+(50)
+Total Shots for board: 981
+Average shots (Board): 49.05
+Avg shots (Clusters): 52.75641
+Average shots (Root): 52.75641
+--------------------
+
+(51)
+Total Shots for board: 1064
+Average shots (Board): 53.2
+Avg shots (Clusters): 52.978203
+Average shots (Root): 52.978203
+--------------------
+
+(52)
+Total Shots for board: 1096
+Average shots (Board): 54.8
+Avg shots (Clusters): 53.8891
+Average shots (Root): 53.8891
+--------------------
+
+(53)
+Total Shots for board: 1188
+Average shots (Board): 59.4
+Avg shots (Clusters): 56.64455
+Average shots (Root): 56.64455
+--------------------
+
+(54)
+Total Shots for board: 1293
+Average shots (Board): 64.65
+Avg shots (Clusters): 60.647278
+Average shots (Root): 60.647278
+--------------------
+
+(55)
+Total Shots for board: 965
+Average shots (Board): 48.25
+Avg shots (Clusters): 54.44864
+Average shots (Root): 54.44864
+--------------------
+
+(56)
+Total Shots for board: 1046
+Average shots (Board): 52.3
+Avg shots (Clusters): 53.37432
+Average shots (Root): 53.37432
+--------------------
+
+(57)
+Total Shots for board: 1240
+Average shots (Board): 62.0
+Avg shots (Clusters): 57.68716
+Average shots (Root): 57.68716
+--------------------
+
+(58)
+Total Shots for board: 1324
+Average shots (Board): 66.2
+Avg shots (Clusters): 61.94358
+Average shots (Root): 61.94358
+--------------------
+
+(59)
+Total Shots for board: 1094
+Average shots (Board): 54.7
+Avg shots (Clusters): 58.321793
+Average shots (Root): 58.321793
+--------------------
+
+(60)
+Total Shots for board: 1029
+Average shots (Board): 51.45
+Avg shots (Clusters): 54.885895
+Average shots (Root): 54.885895
+--------------------
+
+(61)
+Total Shots for board: 1001
+Average shots (Board): 50.05
+Avg shots (Clusters): 52.46795
+Average shots (Root): 52.46795
+--------------------
+
+(62)
+Total Shots for board: 929
+Average shots (Board): 46.45
+Avg shots (Clusters): 49.458977
+Average shots (Root): 49.458977
+--------------------
+
+(63)
+Total Shots for board: 1032
+Average shots (Board): 51.6
+Avg shots (Clusters): 50.529488
+Average shots (Root): 50.529488
+--------------------
+
+(64)
+Total Shots for board: 1080
+Average shots (Board): 54.0
+Avg shots (Clusters): 52.264744
+Average shots (Root): 52.264744
+--------------------
+
+(65)
+Total Shots for board: 1275
+Average shots (Board): 63.75
+Avg shots (Clusters): 58.00737
+Average shots (Root): 58.00737
+--------------------
+
+(66)
+Total Shots for board: 1296
+Average shots (Board): 64.8
+Avg shots (Clusters): 61.403687
+Average shots (Root): 61.403687
+--------------------
+
+(67)
+Total Shots for board: 1405
+Average shots (Board): 70.25
+Avg shots (Clusters): 65.82684
+Average shots (Root): 65.82684
+--------------------
+
+(68)
+Total Shots for board: 1390
+Average shots (Board): 69.5
+Avg shots (Clusters): 67.66342
+Average shots (Root): 67.66342
+--------------------
+
+(69)
+Total Shots for board: 1359
+Average shots (Board): 67.95
+Avg shots (Clusters): 67.80671
+Average shots (Root): 67.80671
+--------------------
+
+(70)
+Total Shots for board: 1454
+Average shots (Board): 72.7
+Avg shots (Clusters): 70.25336
+Average shots (Root): 70.25336
+--------------------
+
+(71)
+Total Shots for board: 1215
+Average shots (Board): 60.75
+Avg shots (Clusters): 65.50168
+Average shots (Root): 65.50168
+--------------------
+
+(72)
+Total Shots for board: 966
+Average shots (Board): 48.3
+Avg shots (Clusters): 56.90084
+Average shots (Root): 56.90084
+--------------------
+
+(73)
+Total Shots for board: 1138
+Average shots (Board): 56.9
+Avg shots (Clusters): 56.90042
+Average shots (Root): 56.90042
+--------------------
+
+(74)
+Total Shots for board: 1076
+Average shots (Board): 53.8
+Avg shots (Clusters): 55.350212
+Average shots (Root): 55.350212
+--------------------
+
+(75)
+Total Shots for board: 1337
+Average shots (Board): 66.85
+Avg shots (Clusters): 61.100105
+Average shots (Root): 61.100105
+--------------------
+
+(76)
+Total Shots for board: 1412
+Average shots (Board): 70.6
+Avg shots (Clusters): 65.85005
+Average shots (Root): 65.85005
+--------------------
+
+(77)
+Total Shots for board: 1368
+Average shots (Board): 68.4
+Avg shots (Clusters): 67.12503
+Average shots (Root): 67.12503
+--------------------
+
+(78)
+Total Shots for board: 769
+Average shots (Board): 38.45
+Avg shots (Clusters): 52.787514
+Average shots (Root): 52.787514
+--------------------
+
+(79)
+Total Shots for board: 1381
+Average shots (Board): 69.05
+Avg shots (Clusters): 60.91876
+Average shots (Root): 60.91876
+--------------------
+
+(80)
+Total Shots for board: 1410
+Average shots (Board): 70.5
+Avg shots (Clusters): 65.70938
+Average shots (Root): 65.70938
+--------------------
+
+(81)
+Total Shots for board: 1060
+Average shots (Board): 53.0
+Avg shots (Clusters): 59.35469
+Average shots (Root): 59.35469
+--------------------
+
+(82)
+Total Shots for board: 1061
+Average shots (Board): 53.05
+Avg shots (Clusters): 56.202347
+Average shots (Root): 56.202347
+--------------------
+
+(83)
+Total Shots for board: 1189
+Average shots (Board): 59.45
+Avg shots (Clusters): 57.82617
+Average shots (Root): 57.82617
+--------------------
+
+(84)
+Total Shots for board: 1435
+Average shots (Board): 71.75
+Avg shots (Clusters): 64.788086
+Average shots (Root): 64.788086
+--------------------
+
+(85)
+Total Shots for board: 1070
+Average shots (Board): 53.5
+Avg shots (Clusters): 59.144043
+Average shots (Root): 59.144043
+--------------------
+
+(86)
+Total Shots for board: 1342
+Average shots (Board): 67.1
+Avg shots (Clusters): 63.12202
+Average shots (Root): 63.12202
+--------------------
+
+(87)
+Total Shots for board: 1184
+Average shots (Board): 59.2
+Avg shots (Clusters): 61.16101
+Average shots (Root): 61.16101
+--------------------
+
+(88)
+Total Shots for board: 919
+Average shots (Board): 45.95
+Avg shots (Clusters): 53.555504
+Average shots (Root): 53.555504
+--------------------
+
+(89)
+Total Shots for board: 1220
+Average shots (Board): 61.0
+Avg shots (Clusters): 57.277752
+Average shots (Root): 57.277752
+--------------------
+
+(90)
+Total Shots for board: 946
+Average shots (Board): 47.3
+Avg shots (Clusters): 52.288876
+Average shots (Root): 52.288876
+--------------------
+
+(91)
+Total Shots for board: 1168
+Average shots (Board): 58.4
+Avg shots (Clusters): 55.344437
+Average shots (Root): 55.344437
+--------------------
+
+(92)
+Total Shots for board: 1055
+Average shots (Board): 52.75
+Avg shots (Clusters): 54.04722
+Average shots (Root): 54.04722
+--------------------
+
+(93)
+Total Shots for board: 1177
+Average shots (Board): 58.85
+Avg shots (Clusters): 56.44861
+Average shots (Root): 56.44861
+--------------------
+
+(94)
+Total Shots for board: 1181
+Average shots (Board): 59.05
+Avg shots (Clusters): 57.749306
+Average shots (Root): 57.749306
+--------------------
+
+(95)
+Total Shots for board: 1006
+Average shots (Board): 50.3
+Avg shots (Clusters): 54.02465
+Average shots (Root): 54.02465
+--------------------
+
+(96)
+Total Shots for board: 828
+Average shots (Board): 41.4
+Avg shots (Clusters): 47.712326
+Average shots (Root): 47.712326
+--------------------
+
+(97)
+Total Shots for board: 1409
+Average shots (Board): 70.45
+Avg shots (Clusters): 59.08116
+Average shots (Root): 59.08116
+--------------------
+
+(98)
+Total Shots for board: 965
+Average shots (Board): 48.25
+Avg shots (Clusters): 53.66558
+Average shots (Root): 53.66558
+--------------------
+
+(99)
+Total Shots for board: 936
+Average shots (Board): 46.8
+Avg shots (Clusters): 50.232788
+Average shots (Root): 50.232788
+--------------------
+
+Cluster shot average: 58.778
+
+ -------------- 
+| Non Clusters |
+ -------------- 
+(0)
+Total Shots for board: 1483
+Average shots (Board): 74.15
+Avg shots (Non Clusters): 74.15
+Average shots (Root): 50.232788
+--------------------
+
+(1)
+Total Shots for board: 1435
+Average shots (Board): 71.75
+Avg shots (Non Clusters): 72.95
+Average shots (Root): 50.232788
+--------------------
+
+(2)
+Total Shots for board: 1545
+Average shots (Board): 77.25
+Avg shots (Non Clusters): 75.1
+Average shots (Root): 50.232788
+--------------------
+
+(3)
+Total Shots for board: 1266
+Average shots (Board): 63.3
+Avg shots (Non Clusters): 69.2
+Average shots (Root): 50.232788
+--------------------
+
+(4)
+Total Shots for board: 1360
+Average shots (Board): 68.0
+Avg shots (Non Clusters): 68.6
+Average shots (Root): 50.232788
+--------------------
+
+(5)
+Total Shots for board: 1401
+Average shots (Board): 70.05
+Avg shots (Non Clusters): 69.325
+Average shots (Root): 50.232788
+--------------------
+
+(6)
+Total Shots for board: 1488
+Average shots (Board): 74.4
+Avg shots (Non Clusters): 71.8625
+Average shots (Root): 50.232788
+--------------------
+
+(7)
+Total Shots for board: 1262
+Average shots (Board): 63.1
+Avg shots (Non Clusters): 67.48125
+Average shots (Root): 50.232788
+--------------------
+
+(8)
+Total Shots for board: 1271
+Average shots (Board): 63.55
+Avg shots (Non Clusters): 65.515625
+Average shots (Root): 50.232788
+--------------------
+
+(9)
+Total Shots for board: 1142
+Average shots (Board): 57.1
+Avg shots (Non Clusters): 61.30781
+Average shots (Root): 50.232788
+--------------------
+
+(10)
+Total Shots for board: 1340
+Average shots (Board): 67.0
+Avg shots (Non Clusters): 64.15391
+Average shots (Root): 50.232788
+--------------------
+
+(11)
+Total Shots for board: 1310
+Average shots (Board): 65.5
+Avg shots (Non Clusters): 64.82695
+Average shots (Root): 50.232788
+--------------------
+
+(12)
+Total Shots for board: 1215
+Average shots (Board): 60.75
+Avg shots (Non Clusters): 62.788475
+Average shots (Root): 50.232788
+--------------------
+
+(13)
+Total Shots for board: 1131
+Average shots (Board): 56.55
+Avg shots (Non Clusters): 59.669235
+Average shots (Root): 50.232788
+--------------------
+
+(14)
+Total Shots for board: 1350
+Average shots (Board): 67.5
+Avg shots (Non Clusters): 63.584618
+Average shots (Root): 50.232788
+--------------------
+
+(15)
+Total Shots for board: 1349
+Average shots (Board): 67.45
+Avg shots (Non Clusters): 65.5173
+Average shots (Root): 50.232788
+--------------------
+
+(16)
+Total Shots for board: 1214
+Average shots (Board): 60.7
+Avg shots (Non Clusters): 63.10865
+Average shots (Root): 50.232788
+--------------------
+
+(17)
+Total Shots for board: 1247
+Average shots (Board): 62.35
+Avg shots (Non Clusters): 62.729324
+Average shots (Root): 50.232788
+--------------------
+
+(18)
+Total Shots for board: 1250
+Average shots (Board): 62.5
+Avg shots (Non Clusters): 62.614662
+Average shots (Root): 50.232788
+--------------------
+
+(19)
+Total Shots for board: 1265
+Average shots (Board): 63.25
+Avg shots (Non Clusters): 62.93233
+Average shots (Root): 50.232788
+--------------------
+
+(20)
+Total Shots for board: 1213
+Average shots (Board): 60.65
+Avg shots (Non Clusters): 61.79117
+Average shots (Root): 50.232788
+--------------------
+
+(21)
+Total Shots for board: 1280
+Average shots (Board): 64.0
+Avg shots (Non Clusters): 62.895584
+Average shots (Root): 50.232788
+--------------------
+
+(22)
+Total Shots for board: 1278
+Average shots (Board): 63.9
+Avg shots (Non Clusters): 63.397793
+Average shots (Root): 50.232788
+--------------------
+
+(23)
+Total Shots for board: 1201
+Average shots (Board): 60.05
+Avg shots (Non Clusters): 61.723896
+Average shots (Root): 50.232788
+--------------------
+
+(24)
+Total Shots for board: 1159
+Average shots (Board): 57.95
+Avg shots (Non Clusters): 59.83695
+Average shots (Root): 50.232788
+--------------------
+
+(25)
+Total Shots for board: 1408
+Average shots (Board): 70.4
+Avg shots (Non Clusters): 65.11848
+Average shots (Root): 50.232788
+--------------------
+
+(26)
+Total Shots for board: 1491
+Average shots (Board): 74.55
+Avg shots (Non Clusters): 69.83424
+Average shots (Root): 50.232788
+--------------------
+
+(27)
+Total Shots for board: 1298
+Average shots (Board): 64.9
+Avg shots (Non Clusters): 67.36713
+Average shots (Root): 50.232788
+--------------------
+
+(28)
+Total Shots for board: 1317
+Average shots (Board): 65.85
+Avg shots (Non Clusters): 66.60857
+Average shots (Root): 50.232788
+--------------------
+
+(29)
+Total Shots for board: 1236
+Average shots (Board): 61.8
+Avg shots (Non Clusters): 64.204285
+Average shots (Root): 50.232788
+--------------------
+
+(30)
+Total Shots for board: 1341
+Average shots (Board): 67.05
+Avg shots (Non Clusters): 65.627144
+Average shots (Root): 50.232788
+--------------------
+
+(31)
+Total Shots for board: 1443
+Average shots (Board): 72.15
+Avg shots (Non Clusters): 68.88857
+Average shots (Root): 50.232788
+--------------------
+
+(32)
+Total Shots for board: 1317
+Average shots (Board): 65.85
+Avg shots (Non Clusters): 67.369286
+Average shots (Root): 50.232788
+--------------------
+
+(33)
+Total Shots for board: 1176
+Average shots (Board): 58.8
+Avg shots (Non Clusters): 63.08464
+Average shots (Root): 50.232788
+--------------------
+
+(34)
+Total Shots for board: 1193
+Average shots (Board): 59.65
+Avg shots (Non Clusters): 61.36732
+Average shots (Root): 50.232788
+--------------------
+
+(35)
+Total Shots for board: 1464
+Average shots (Board): 73.2
+Avg shots (Non Clusters): 67.28366
+Average shots (Root): 50.232788
+--------------------
+
+(36)
+Total Shots for board: 1243
+Average shots (Board): 62.15
+Avg shots (Non Clusters): 64.71683
+Average shots (Root): 50.232788
+--------------------
+
+(37)
+Total Shots for board: 1452
+Average shots (Board): 72.6
+Avg shots (Non Clusters): 68.65842
+Average shots (Root): 50.232788
+--------------------
+
+(38)
+Total Shots for board: 1091
+Average shots (Board): 54.55
+Avg shots (Non Clusters): 61.60421
+Average shots (Root): 50.232788
+--------------------
+
+(39)
+Total Shots for board: 1261
+Average shots (Board): 63.05
+Avg shots (Non Clusters): 62.327103
+Average shots (Root): 50.232788
+--------------------
+
+(40)
+Total Shots for board: 1318
+Average shots (Board): 65.9
+Avg shots (Non Clusters): 64.113556
+Average shots (Root): 50.232788
+--------------------
+
+(41)
+Total Shots for board: 1523
+Average shots (Board): 76.15
+Avg shots (Non Clusters): 70.131775
+Average shots (Root): 50.232788
+--------------------
+
+(42)
+Total Shots for board: 1326
+Average shots (Board): 66.3
+Avg shots (Non Clusters): 68.21589
+Average shots (Root): 50.232788
+--------------------
+
+(43)
+Total Shots for board: 1188
+Average shots (Board): 59.4
+Avg shots (Non Clusters): 63.807945
+Average shots (Root): 50.232788
+--------------------
+
+(44)
+Total Shots for board: 1393
+Average shots (Board): 69.65
+Avg shots (Non Clusters): 66.72897
+Average shots (Root): 50.232788
+--------------------
+
+(45)
+Total Shots for board: 1228
+Average shots (Board): 61.4
+Avg shots (Non Clusters): 64.06448
+Average shots (Root): 50.232788
+--------------------
+
+(46)
+Total Shots for board: 1136
+Average shots (Board): 56.8
+Avg shots (Non Clusters): 60.432243
+Average shots (Root): 50.232788
+--------------------
+
+(47)
+Total Shots for board: 1124
+Average shots (Board): 56.2
+Avg shots (Non Clusters): 58.316124
+Average shots (Root): 50.232788
+--------------------
+
+(48)
+Total Shots for board: 1189
+Average shots (Board): 59.45
+Avg shots (Non Clusters): 58.883064
+Average shots (Root): 50.232788
+--------------------
+
+(49)
+Total Shots for board: 1274
+Average shots (Board): 63.7
+Avg shots (Non Clusters): 61.291534
+Average shots (Root): 50.232788
+--------------------
+
+(50)
+Total Shots for board: 1194
+Average shots (Board): 59.7
+Avg shots (Non Clusters): 60.495766
+Average shots (Root): 50.232788
+--------------------
+
+(51)
+Total Shots for board: 1348
+Average shots (Board): 67.4
+Avg shots (Non Clusters): 63.947884
+Average shots (Root): 50.232788
+--------------------
+
+(52)
+Total Shots for board: 1284
+Average shots (Board): 64.2
+Avg shots (Non Clusters): 64.073944
+Average shots (Root): 50.232788
+--------------------
+
+(53)
+Total Shots for board: 1018
+Average shots (Board): 50.9
+Avg shots (Non Clusters): 57.486973
+Average shots (Root): 50.232788
+--------------------
+
+(54)
+Total Shots for board: 1343
+Average shots (Board): 67.15
+Avg shots (Non Clusters): 62.31849
+Average shots (Root): 50.232788
+--------------------
+
+(55)
+Total Shots for board: 1184
+Average shots (Board): 59.2
+Avg shots (Non Clusters): 60.759247
+Average shots (Root): 50.232788
+--------------------
+
+(56)
+Total Shots for board: 1361
+Average shots (Board): 68.05
+Avg shots (Non Clusters): 64.404625
+Average shots (Root): 50.232788
+--------------------
+
+(57)
+Total Shots for board: 1209
+Average shots (Board): 60.45
+Avg shots (Non Clusters): 62.427315
+Average shots (Root): 50.232788
+--------------------
+
+(58)
+Total Shots for board: 1206
+Average shots (Board): 60.3
+Avg shots (Non Clusters): 61.363655
+Average shots (Root): 50.232788
+--------------------
+
+(59)
+Total Shots for board: 1301
+Average shots (Board): 65.05
+Avg shots (Non Clusters): 63.20683
+Average shots (Root): 50.232788
+--------------------
+
+(60)
+Total Shots for board: 1220
+Average shots (Board): 61.0
+Avg shots (Non Clusters): 62.103416
+Average shots (Root): 50.232788
+--------------------
+
+(61)
+Total Shots for board: 1360
+Average shots (Board): 68.0
+Avg shots (Non Clusters): 65.05171
+Average shots (Root): 50.232788
+--------------------
+
+(62)
+Total Shots for board: 1480
+Average shots (Board): 74.0
+Avg shots (Non Clusters): 69.525856
+Average shots (Root): 50.232788
+--------------------
+
+(63)
+Total Shots for board: 1383
+Average shots (Board): 69.15
+Avg shots (Non Clusters): 69.33793
+Average shots (Root): 50.232788
+--------------------
+
+(64)
+Total Shots for board: 1186
+Average shots (Board): 59.3
+Avg shots (Non Clusters): 64.31896
+Average shots (Root): 50.232788
+--------------------
+
+(65)
+Total Shots for board: 1402
+Average shots (Board): 70.1
+Avg shots (Non Clusters): 67.20948
+Average shots (Root): 50.232788
+--------------------
+
+(66)
+Total Shots for board: 1358
+Average shots (Board): 67.9
+Avg shots (Non Clusters): 67.55474
+Average shots (Root): 50.232788
+--------------------
+
+(67)
+Total Shots for board: 1121
+Average shots (Board): 56.05
+Avg shots (Non Clusters): 61.80237
+Average shots (Root): 50.232788
+--------------------
+
+(68)
+Total Shots for board: 1282
+Average shots (Board): 64.1
+Avg shots (Non Clusters): 62.951183
+Average shots (Root): 50.232788
+--------------------
+
+(69)
+Total Shots for board: 1363
+Average shots (Board): 68.15
+Avg shots (Non Clusters): 65.55059
+Average shots (Root): 50.232788
+--------------------
+
+(70)
+Total Shots for board: 1271
+Average shots (Board): 63.55
+Avg shots (Non Clusters): 64.55029
+Average shots (Root): 50.232788
+--------------------
+
+(71)
+Total Shots for board: 1499
+Average shots (Board): 74.95
+Avg shots (Non Clusters): 69.750145
+Average shots (Root): 50.232788
+--------------------
+
+(72)
+Total Shots for board: 1189
+Average shots (Board): 59.45
+Avg shots (Non Clusters): 64.600075
+Average shots (Root): 50.232788
+--------------------
+
+(73)
+Total Shots for board: 1206
+Average shots (Board): 60.3
+Avg shots (Non Clusters): 62.450035
+Average shots (Root): 50.232788
+--------------------
+
+(74)
+Total Shots for board: 1173
+Average shots (Board): 58.65
+Avg shots (Non Clusters): 60.55002
+Average shots (Root): 50.232788
+--------------------
+
+(75)
+Total Shots for board: 1262
+Average shots (Board): 63.1
+Avg shots (Non Clusters): 61.82501
+Average shots (Root): 50.232788
+--------------------
+
+(76)
+Total Shots for board: 1374
+Average shots (Board): 68.7
+Avg shots (Non Clusters): 65.262505
+Average shots (Root): 50.232788
+--------------------
+
+(77)
+Total Shots for board: 1068
+Average shots (Board): 53.4
+Avg shots (Non Clusters): 59.331253
+Average shots (Root): 50.232788
+--------------------
+
+(78)
+Total Shots for board: 1387
+Average shots (Board): 69.35
+Avg shots (Non Clusters): 64.34062
+Average shots (Root): 50.232788
+--------------------
+
+(79)
+Total Shots for board: 1415
+Average shots (Board): 70.75
+Avg shots (Non Clusters): 67.54531
+Average shots (Root): 50.232788
+--------------------
+
+(80)
+Total Shots for board: 1240
+Average shots (Board): 62.0
+Avg shots (Non Clusters): 64.77266
+Average shots (Root): 50.232788
+--------------------
+
+(81)
+Total Shots for board: 986
+Average shots (Board): 49.3
+Avg shots (Non Clusters): 57.03633
+Average shots (Root): 50.232788
+--------------------
+
+(82)
+Total Shots for board: 1329
+Average shots (Board): 66.45
+Avg shots (Non Clusters): 61.743164
+Average shots (Root): 50.232788
+--------------------
+
+(83)
+Total Shots for board: 1231
+Average shots (Board): 61.55
+Avg shots (Non Clusters): 61.646584
+Average shots (Root): 50.232788
+--------------------
+
+(84)
+Total Shots for board: 1487
+Average shots (Board): 74.35
+Avg shots (Non Clusters): 67.99829
+Average shots (Root): 50.232788
+--------------------
+
+(85)
+Total Shots for board: 1342
+Average shots (Board): 67.1
+Avg shots (Non Clusters): 67.54915
+Average shots (Root): 50.232788
+--------------------
+
+(86)
+Total Shots for board: 1280
+Average shots (Board): 64.0
+Avg shots (Non Clusters): 65.774574
+Average shots (Root): 50.232788
+--------------------
+
+(87)
+Total Shots for board: 1292
+Average shots (Board): 64.6
+Avg shots (Non Clusters): 65.18729
+Average shots (Root): 50.232788
+--------------------
+
+(88)
+Total Shots for board: 1440
+Average shots (Board): 72.0
+Avg shots (Non Clusters): 68.59364
+Average shots (Root): 50.232788
+--------------------
+
+(89)
+Total Shots for board: 1257
+Average shots (Board): 62.85
+Avg shots (Non Clusters): 65.72182
+Average shots (Root): 50.232788
+--------------------
+
+(90)
+Total Shots for board: 1164
+Average shots (Board): 58.2
+Avg shots (Non Clusters): 61.960907
+Average shots (Root): 50.232788
+--------------------
+
+(91)
+Total Shots for board: 1385
+Average shots (Board): 69.25
+Avg shots (Non Clusters): 65.60545
+Average shots (Root): 50.232788
+--------------------
+
+(92)
+Total Shots for board: 1376
+Average shots (Board): 68.8
+Avg shots (Non Clusters): 67.20273
+Average shots (Root): 50.232788
+--------------------
+
+(93)
+Total Shots for board: 1057
+Average shots (Board): 52.85
+Avg shots (Non Clusters): 60.026363
+Average shots (Root): 50.232788
+--------------------
+
+(94)
+Total Shots for board: 1379
+Average shots (Board): 68.95
+Avg shots (Non Clusters): 64.48818
+Average shots (Root): 50.232788
+--------------------
+
+(95)
+Total Shots for board: 1367
+Average shots (Board): 68.35
+Avg shots (Non Clusters): 66.41909
+Average shots (Root): 50.232788
+--------------------
+
+(96)
+Total Shots for board: 1090
+Average shots (Board): 54.5
+Avg shots (Non Clusters): 60.459545
+Average shots (Root): 50.232788
+--------------------
+
+(97)
+Total Shots for board: 1280
+Average shots (Board): 64.0
+Avg shots (Non Clusters): 62.229774
+Average shots (Root): 50.232788
+--------------------
+
+(98)
+Total Shots for board: 1212
+Average shots (Board): 60.6
+Avg shots (Non Clusters): 61.414886
+Average shots (Root): 50.232788
+--------------------
+
+(99)
+Total Shots for board: 1223
+Average shots (Board): 61.15
+Avg shots (Non Clusters): 61.282444
+Average shots (Root): 50.232788
+--------------------
+
+Non Cluster shot average: 64.3745
+Cluster shot average: 50.232788
+Runs Completed: 4000
+Average shot count: 61.57625
