@@ -106,6 +106,125 @@ public class AI {
             }
         }
     }
+    
+    private boolean canEmptyStack(Point p) {
+        if (p.x == lastHit.x) {
+            if (0 < p.y-1 && 11 > p.y+1) {
+                if (board.getCell(p.x, p.y+1).equals("!") 
+                        || board.getCell(p.x, p.y-1).equals("!")) {
+                    return false;
+                }
+            }
+        }
+        
+        if (p.y == lastHit.y) {
+            if (0 < p.x-1 && 11 > p.x+1) {
+                if (board.getCell(p.x+1, p.y).equals("!") 
+                        || board.getCell(p.x-1, p.y).equals("!")) {
+                    return false;
+                }
+            }
+        }
+        
+        return true;
+    }
+    
+    Point lastHit;
+    Point firstHit;
+    public void extremeShot() throws IOException {
+        if (0 == stackSize) {
+            target = new Point(rand(), rand());
+              
+            numAttempts = 5;
+            
+            while (!testChoice(target, 1)) {
+                target = new Point(rand(), rand());
+            }
+
+            if (board.fire(target.x, target.y)) {
+                lastHit = target;
+                firstHit = target;
+                populateStack(target);
+            } else if (board.isInvalidShot()) {
+                extremeShot();
+            }
+        } else {
+            target = pop();
+            
+            if (board.fire(target.x, target.y)) {
+                if (board.isKillShot()) { 
+                    boolean ok = true;
+                    
+                    while (0 < stackSize) {
+                        target = pop();
+                        if (board.getCell(target.x, target.y).equals("!")) {
+                            //lastHit = target;
+                            //populateStack(target);
+                            break;
+                        }
+                    }
+                } else {
+                    populateStack(target);
+                    if (lastHit.x == target.x) {
+                        if (lastHit.y < target.y) {
+                            if (11 > target.y+1) {
+                                push(new Point(target.x, target.y+1));
+                            }
+                        } else {
+                            if (0 < target.y-1) {
+                                push(new Point(target.x, target.y-1));
+                            }
+                        }
+                    } else if (lastHit.y == target.y) {
+                        if (lastHit.x < target.x) {
+                            if (11 > target.x+1) {
+                                push(new Point(target.x+1, target.y));
+                            }
+                        } else {
+                            if (0 < target.x-1) {
+                                push(new Point(target.x-1, target.y));
+                            }
+                        }
+                    } 
+                    lastHit = target;
+                }
+            } else if (board.isMissedShot()) {
+                if (firstHit != lastHit) {
+                    stackSize = 0;
+                    //populateStack(lastHit);
+                }
+                if (lastHit.x == target.x) {
+                    if (lastHit.y < target.y) {
+                        if (11 > firstHit.y+1) {
+                            push(new Point(firstHit.x, firstHit.y+1));
+                        }
+                    } else {
+                        if (0 < firstHit.y-1) {
+                            push(new Point(firstHit.x, firstHit.y-1));
+                        }
+                    }
+                } else if (lastHit.y == target.y) {
+                    if (lastHit.x < target.x) {
+                        if (11 > firstHit.x+1) {
+                            push(new Point(firstHit.x+1, firstHit.y));
+                        }
+                    } else {
+                        if (0 < target.x-1) {
+                            push(new Point(firstHit.x-1, firstHit.y));
+                        }
+                    }
+                }
+            } else if (board.isInvalidShot()) {
+                extremeShot();
+            }
+        }
+    }
+    
+    public void smartHuntWithParity() throws IOException {
+        while (!board.isDone()) {
+            extremeShot();
+        }
+    }
 
     // Randomly pick a spot and fire if it is availible. 
     // If it isnt randomly pick another.

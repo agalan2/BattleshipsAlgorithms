@@ -1,24 +1,66 @@
 
-Cluster shot average: 53.620716
-Non Cluster shot average: 71.829
-Runs Completed: 4000
-Average shot count: 67.0885
+Cluster shot average: 55.137817
+Non Cluster shot average: 70.068
+Runs Completed: 2000
+Average shot count: 65.41
 --------------------------------------
 
-Cluster shot average: 55.000183
-Non Cluster shot average: 71.911
-Runs Completed: 4000
-Average shot count: 67.391
+Cluster shot average: 50.385483
+Non Cluster shot average: 70.0
+Runs Completed: 2000
+Average shot count: 65.1875
 --------------------------------------
 
-Cluster shot average: 53.121555
-Non Cluster shot average: 71.9075
-Runs Completed: 4000
-Average shot count: 67.2305
+Cluster shot average: 53.412296
+Non Cluster shot average: 69.769
+Runs Completed: 2000
+Average shot count: 65.103
 --------------------------------------
 
-Cluster shot average: 55.236717
-Non Cluster shot average: 72.1715
+Cluster shot average: 52.109222
+Non Cluster shot average: 69.469
+Runs Completed: 2000
+Average shot count: 64.7955
+--------------------------------------
+
+Cluster shot average: 56.204285
+Non Cluster shot average: 70.401
+Runs Completed: 2000
+Average shot count: 65.2575
+--------------------------------------
+
+Cluster shot average: 54.575294
+Non Cluster shot average: 69.833
+Runs Completed: 2000
+Average shot count: 64.974
+--------------------------------------
+
+Cluster shot average: 53.658264
+Non Cluster shot average: 70.241
+Runs Completed: 2000
+Average shot count: 65.045
+--------------------------------------
+
+Cluster shot average: 51.191696
+Non Cluster shot average: 70.344
+Runs Completed: 2000
+Average shot count: 65.4435
+--------------------------------------
+
+Cluster shot average: 53.977592
+Non Cluster shot average: 69.907
+Runs Completed: 2000
+Average shot count: 65.5015
+--------------------------------------
+
+Cluster shot average: 51.03257
+Non Cluster shot average: 69.651
+Runs Completed: 2000
+Average shot count: 64.8565
+--------------------------------------
+
+Cluster shot average: 50.495842
+Non Cluster shot average: 70.076
 Runs Completed: 4000
-Average shot count: 67.32025
+Average shot count: 65.061
 --------------------------------------

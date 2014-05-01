@@ -164,6 +164,8 @@ public class CommandLine {
                     Setup.getAI().huntWithParity(); break;
                 case "-d":
                     Setup.getAI().dynamicHuntWithParity(); break;
+                case "-s":
+                    Setup.getAI().smartHuntWithParity(); break;
                 default:
                     System.out.print("Invalid algorithm.\n");
             }
@@ -282,7 +284,7 @@ public class CommandLine {
                 Setup.getPlayerBoard().draw();
                 showCmdPrompt(); break;
             case "o":
-                Setup.getAI().veryHardShot();
+                Setup.getAI().extremeShot();
                 Setup.getPlayerBoard().draw();
                 showCmdPrompt(); break;
             
@@ -408,12 +410,16 @@ public class CommandLine {
                         + "     -r: random volley\n"
                         + "     -h: hunt/target\n"
                         + "     -p: h/t with parity\n"
+                        + "     -d: dynamic h/t with parity\n"
+                        + "     -s: smart h/t with parity\n"
                         + "Enter selection: ";
                 try {
                     alg = strings[1];
                     if (!alg.equals("-r") 
                             && !alg.equals("-h") 
-                            && !alg.equals("-p")) {
+                            && !alg.equals("-p")
+                            && !alg.equals("-d")
+                            && !alg.equals("-s")) {
                         System.out.print(help);
                         alg = s.next();
                     }
@@ -448,6 +454,9 @@ public class CommandLine {
                     case "-p":
                         lfw.write("| H/T With parity |\n"); 
                         sfw.write("| H/T With parity |\n"); break;
+                    case "-d":
+                        lfw.write("| Dynamic H/T With parity |\n"); 
+                        sfw.write("| Dynamic H/T With parity |\n"); break;
                 } 
                 
                 lfw.write(" ------------------ \n\n");
